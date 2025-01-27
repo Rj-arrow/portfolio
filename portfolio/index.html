@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            /* width: 1440px; */
+            height: 800px;
+            font-family: 'intiqua' ;
+            text-decoration: none;
+            color: white;
+            
+        }
+        @font-face {
+            font-family: 'intiqua';
+            src: url(/Inknut_Antiqua/InknutAntiqua-Regular.ttf);
+        }
+        .container{
+            background: linear-gradient(180deg,rgb(255,0,0,0.5),rgb(0,0,0,1)); 
+            width: 375px;
+            height: 620px;     
+            border-radius: 20px;
+            border:1px solid white ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            flex-direction: column;
+            box-shadow: 0px 4px 50px 10px rgb(118, 40, 40) ;
+        }
+        .box1{
+            width: 90%;
+            height: 250px;
+            /* background-color: aliceblue; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .photo{
+            width: 40%;
+            height: 130px;
+            border-radius: 10px;
+            /* background-color: antiquewhite; */
+            box-shadow: 0px 4px 50px 10px rgb(39, 20, 20);
+            img{
+                object-fit:cover;
+                border-radius: 10px;
+            }
+        }
+        
+        .info{
+            color: white;
+            text-align: center;
+            p{
+                font-size: x-small;
+            }
+            h3{
+                font-size: medium;
+            }
+
+        }
+        .box2{
+            width: 95%;
+            height: 240px;
+            /* background-color: aliceblue; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 40px;
+
+        }
+        button{
+            width: 90%;
+            height: 50px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 50px 10px rgb(244,0,0,45%);
+            background: linear-gradient(rgb(189,0,3,95%),rgb(46,12,12,100%));
+            a{
+                text-decoration: none;
+                color: white;
+                font-family: 'intiqua'
+                ;
+            }
+        }
+     
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <audio src="/Marco Entry Bgm Ringtone Download - MobCup.Com.Co.mp3" autoplay loop></audio>
+        <div class="box1">
+            <div class="photo">
+                <img src="/WhatsApp Image 2025-01-18 at 9.59.58 PM.jpeg" alt="" width="135px" height="130px" >
+            </div>
+            <div class="info">
+                <h3>RIBHU JENA</h3>  <p>UI/UX and Frontend Developer</p>
+                <p>I am ready to get hired.</p>
+            </div>
+        </div>
+        <div class="box2">
+            <button><label for=""><a href="https://www.linkedin.com/in/ribhu-jena-056b872b5" target="_blank">LinkedIn</a></label></button>
+            <button><label for=""><a href="https://www.instagram.com/ri_bhu.121/#" target="_blank">Instagram</a></label></button>
+            <button><label for=""><a href="tel:+918260918251" >Contact Me</a></label></button>
+        </div>
+    </div>
+
+</body>
+</html>
